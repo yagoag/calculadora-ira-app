@@ -1,0 +1,85 @@
+/*	Style.css file for Calculadora IRA
+/*	Author: Yago Arroyo (github.com/yagoag)
+*/
+
+/* Small Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-spacing: 10px;
+}
+
+/* Font imports */
+@font-face {
+	font-family: "Humanst521 Lt BT";
+	src: url("fonts/tt0288m.ttf");
+}
+
+@font-face {
+	font-family: "Quadranta";
+	src: url("fonts/Quadranta-Regular.otf");
+}
+
+/* Body definitions */
+body {
+	font-family: "Humanst521 Lt BT", "Calibri Light", Arial, sans-serif;
+	background: #6d0000;
+	color: #444;
+	font-size: 32px;
+}
+
+
+#header {
+	color: #4e4e4e;
+	background: #cfcfcf;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+
+#header .big {
+	font-size: 1.2em;
+}
+
+/* Calculadora table */
+#calculadora {
+	width: 100%;
+	border: 1px solid white;
+}
+
+.semestre td {
+	padding: 5px;
+}
+
+input, select {
+	font-family: "Humanst521 Lt BT", "Calibri Light", Arial, sans-serif;
+	font-size: 1em;
+}
+
+input[type=textbox], select {
+	background: #ccc;
+	border: none;
+	border-radius: 5px;
+	padding: 3px 10px;
+	width: calc(100% - 20px);
+}
+
+select {
+	width: 100%;
+	height: 100%;
+}
+
+.left {
+	width: 30%;
+}
+
+.middle {
+	width: 40%;
+}
+
+.right {
+	width: 30%;
+}
